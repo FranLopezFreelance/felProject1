@@ -12,6 +12,5 @@
  */
 
 Route::get('/', function () {
-		//return view('welcome');
-		echo "Hollow World!";
+		return view('welcome');
 	});
